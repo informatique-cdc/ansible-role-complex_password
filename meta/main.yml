@@ -1,0 +1,25 @@
+galaxy_info:
+  role_name: complex_password
+  author: Stéphane Bilqué
+  description: Creates a random and complex password with rules
+  company: Informatique CDC
+
+  license: Apache
+
+  min_ansible_version: 2.6
+
+  github_branch: https://github.com/informatique-cdc/ansible-role-complex_password
+
+  platforms:
+   - name: redhat
+     versions:
+      - 7.8
+
+  galaxy_tags:
+    - complex
+    - password
+    - strong
+    - random
+    - rules
+
+dependencies: []
