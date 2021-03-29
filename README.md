@@ -8,14 +8,14 @@
 
 | Parameter     | Choices/<font color="blue">Defaults</font> | Comments |
 | ------------- | ---------|--------- |
-|__length__<br><font color="purple">integer</font></font> / <font color="red">No</font> | __Default:__<br><font color="blue">12</font> | The number of characters in the generated password.<br>The length must be between `1` and `128` characters. |
-|__min_upper_case__<br><font color="purple">integer</font></font> / <font color="red">No</font> | __Default:__<br><font color="blue">2</font> | The minimum number of uppercase letters of European languages (`A` through `Z`) in the newly generated password.<br>To exclude upper case characters from the password, specify `-1`. |
-|__min_lower_case__<br><font color="purple">integer</font></font> / <font color="red">No</font> | __Default:__<br><font color="blue">2</font> | The minimum number of lowercase letters of European languages (`a` through `z`) in the newly generated password.<br>To exclude lower case characters from the password, specify `-1`. |
-|__min_digit__<br><font color="purple">integer</font></font> / <font color="red">No</font> | __Default:__<br><font color="blue">2</font> | The minimum number of characters from base 10 digits (`0` through `9`) in the newly generated password.<br>To exclude digits from the password, specify `-1`. |
-|__min_special__<br><font color="purple">integer</font></font> / <font color="red">No</font> | __Default:__<br><font color="blue">2</font> | The minimum number of non-alphanumeric characters (special characters) in the newly generated password.<br>To exclude special characters from the password, specify `-1`. |
-|__special_characters__<br><font color="purple">string</font></font> / <font color="red">No</font> | __Default:__<br><font color="blue">/*!\\"$%()=?{[]}+\#-.,<'_:;>~\|@</font> | A string containing all special characters allowed to use. |
-|__forbidden_characters__<br><font color="purple">string</font></font> / <font color="red">No</font> |  | The characters that cannot be used when generating a new password, e.g `/~\`. |
-|__prevent_repeating_characters__<br><font color="purple">boolean</font></font> / <font color="red">No</font> | __Choices__: <ul><li>no</li><li><font color="blue">__yes &#x2190;__</font></li></ul> | Whether or not characters can be used more than once in a password. |
+|__length__<br><font color="purple">integer</font></font> | __Default:__<br><font color="blue">12</font> | The number of characters in the generated password.<br>The length must be between `1` and `128` characters. |
+|__min_upper_case__<br><font color="purple">integer</font></font> | __Default:__<br><font color="blue">2</font> | The minimum number of uppercase letters of European languages (`A` through `Z`) in the newly generated password.<br>To exclude upper case characters from the password, specify `-1`. |
+|__min_lower_case__<br><font color="purple">integer</font></font> | __Default:__<br><font color="blue">2</font> | The minimum number of lowercase letters of European languages (`a` through `z`) in the newly generated password.<br>To exclude lower case characters from the password, specify `-1`. |
+|__min_digit__<br><font color="purple">integer</font></font> | __Default:__<br><font color="blue">2</font> | The minimum number of characters from base 10 digits (`0` through `9`) in the newly generated password.<br>To exclude digits from the password, specify `-1`. |
+|__min_special__<br><font color="purple">integer</font></font> | __Default:__<br><font color="blue">2</font> | The minimum number of non-alphanumeric characters (special characters) in the newly generated password.<br>To exclude special characters from the password, specify `-1`. |
+|__special_characters__<br><font color="purple">string</font></font> | __Default:__<br><font color="blue">/*!\\"$%()=?{[]}+\#-.,<'_:;>~\|@</font> | A string containing all special characters allowed to use. |
+|__forbidden_characters__<br><font color="purple">string</font></font> |  | The characters that cannot be used when generating a new password, e.g `/~\`. |
+|__prevent_repeating_characters__<br><font color="purple">boolean</font></font> | __Choices__: <ul><li>no</li><li><font color="blue">__yes &#x2190;__</font></li></ul> | Whether or not characters can be used more than once in a password. |
 
 ## Examples
 

@@ -42,52 +42,52 @@ options:
       - The number of characters in the generated password. 
       - The length must be between C(1) and C(128) characters.
     default: 12
-    required: 'No'
+    required: False
     type: int
   min_upper_case:
     description:
       - The minimum number of uppercase letters of European languages (C(A) through C(Z)) in the newly generated password.
       - To exclude upper case characters from the password, specify C(-1).
     default: 2
-    required: 'No'
+    required: False
     type: int
   min_lower_case:
     description:
       - The minimum number of lowercase letters of European languages (C(a) through C(z)) in the newly generated password.
       - To exclude lower case characters from the password, specify C(-1).
     default: 2
-    required: 'No'
+    required: False
     type: int
   min_digit:
     description:
       - The minimum number of characters from base 10 digits (C(0) through C(9)) in the newly generated password. 
       - To exclude digits from the password, specify C(-1).
     default: 2
-    required: 'No'
+    required: False
     type: int
   min_special:
     description:
       - The minimum number of non-alphanumeric characters (special characters) in the newly generated password.
       - To exclude special characters from the password, specify C(-1).
     default: 2
-    required: 'No'
+    required: False
     type: int
   special_characters:
     description:
       - A string containing all special characters allowed to use.
     default: |-
         /*!\\"$%()=?{[]}+\#-.,<'_:;>~\|@
-    required: 'No'
+    required: False
     type: str
   forbidden_characters:  
     description:
       -  The characters that cannot be used when generating a new password, e.g C(/~\).
-    required: 'No'
+    required: False
     type: str
   prevent_repeating_characters:
     description:
       - Whether or not characters can be used more than once in a password.
-    required: 'No'
+    required: False
     type: bool 
     default: true              
 '''
