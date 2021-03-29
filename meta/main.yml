@@ -11,9 +11,9 @@ galaxy_info:
   github_branch: https://github.com/informatique-cdc/ansible-role-complex_password
 
   platforms:
-   - name: redhat
-     versions:
-      - 7.8
+    - name: EL
+      versions:
+        - all
 
   galaxy_tags:
     - complex
